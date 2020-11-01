@@ -31,8 +31,8 @@ if (message.content === 'register') {
 client.on('message', message => {
 if (message.content === '-about') {
 	
-	message.channel.send('I am St0rm Bot! I am made by <@321044903029374976>.');
+	message.channel.send('I am St0rm Bot! I am made by <@(clientid)>.');
 }
 });
 
-client.login('NzU5ODMxNTA5NTEwNTIwODky.X3DOPA.SIP7iKENnUIg5s4JgwMMDVKtZN0')
+client.login('token goes here')
